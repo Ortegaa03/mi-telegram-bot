@@ -11,7 +11,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     import os
-    token = os.getenv("BOT_TOKEN")  # Tomar el token de variables de entorno
+    token = os.getenv("8213842847:AAEmzSiUQxO9OdwwfEPJNr2VfOjICTlqKPI")  # Tomar el token de variables de entorno
     app = Application.builder().token(token).build()
 
     # Handlers
